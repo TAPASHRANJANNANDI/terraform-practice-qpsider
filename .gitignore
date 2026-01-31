@@ -1,2 +1,4 @@
 .terraform/
 .terraform.lock.hcl
+./terraform-task1/.terraform/
+./terraform-task1/.terraform.lock.hcl
