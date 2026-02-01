@@ -4,3 +4,5 @@
 ./terraform-task1/.terraform.lock.hcl
 ./terraform-task2/.terraform/
 ./terraform-task2/.terraform.lock.hcl
+./terraform-task3/.terraform/
+./terraform-task3/.terraform.lock.hcl
