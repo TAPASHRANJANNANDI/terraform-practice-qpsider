@@ -45,27 +45,27 @@ resource "aws_s3_bucket_versioning" "tapash-bucket-2" {
     status = "Enabled"
   }
 }
-resource "aws_s3_bucket_object" "tapash-bucket-1-object1" {
+resource "aws_s3_object" "tapash-bucket-1-object1" {
   key        = "object1"
   bucket     = aws_s3_bucket.tapash-bucket-1.id
   source     = "earbuds.jpg"
 }
-resource "aws_s3_bucket_object" "tapash-bucket-1-object2" {
+resource "aws_s3_object" "tapash-bucket-1-object2" {
   key        = "object2"
   bucket     = aws_s3_bucket.tapash-bucket-1.id
   source     = "Levis jeans.jpg"
 }
-resource "aws_s3_bucket_object" "tapash-bucket-1-object3" {
+resource "aws_s3_object" "tapash-bucket-1-object3" {
   key        = "object3"
   bucket     = aws_s3_bucket.tapash-bucket-1.id
   source     = "phone.webp"
 }
-resource "aws_s3_bucket_object" "tapash-bucket-2-object1" {
+resource "aws_s3_object" "tapash-bucket-2-object1" {
   key        = "object1"
   bucket     = aws_s3_bucket.tapash-bucket-2.id
   source     = "earbuds.jpg"
 }
-resource "aws_s3_bucket_object" "tapash-bucket-2-object2" {
+resource "aws_s3_object" "tapash-bucket-2-object2" {
   key        = "object2"
   bucket     = aws_s3_bucket.tapash-bucket-2.id
   source     = "lancer shoes.jpg"
