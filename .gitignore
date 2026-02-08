@@ -8,3 +8,7 @@
 ./terraform-task3/.terraform.lock.hcl
 ./terraform-task4/.terraform/
 ./terraform-task4/.terraform.lock.hcl
+./terraform-practice/terraform-task-vpc/.terraform/
+./terraform-practice/terraform-task-vpc/.terraform.lock.hcl
+./terraform-practice/terraform-task-S3/.terraform/
+./terraform-practice/terraform-task-S3/.terraform.lock.hcl
