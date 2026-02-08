@@ -53,7 +53,7 @@ resource "aws_s3_object" "tapash-bucket-1-object1" {
 resource "aws_s3_object" "tapash-bucket-1-object2" {
   key        = "object2"
   bucket     = aws_s3_bucket.tapash-bucket-1.id
-  source     = "Levis jeans.jpg"
+  source     = "Levis jeans.webp"
 }
 resource "aws_s3_object" "tapash-bucket-1-object3" {
   key        = "object3"
