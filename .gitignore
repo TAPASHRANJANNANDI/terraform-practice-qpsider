@@ -12,3 +12,5 @@
 ./terraform-practice/terraform-task-vpc/.terraform.lock.hcl
 ./terraform-practice/terraform-task-S3/.terraform/
 ./terraform-practice/terraform-task-S3/.terraform.lock.hcl
+./terraform-task-test/.terraform/
+./terraform-task-test/.terraform.lock.hcl
